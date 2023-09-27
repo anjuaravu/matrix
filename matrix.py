@@ -9,9 +9,9 @@ for _ in range(n):
     matrix.append(matrix_item)
 
 matrix = list(zip(*matrix))
-sample = str()
+string = str()
 for i in matrix:
     for j in i:
         sample += j
-print(re.sub(r'(?<=\w)([^\w\d]+)(?=\w)', ' ', sample))
+print(re.sub(r'(?<=\w)([^\w\d]+)(?=\w)', ' ', string))
 
